@@ -11,7 +11,11 @@ SECRET_KEY = 'django-insecure-change-this-before-you-deploy'
 # True while we are learning. On Day 5 we change this to False.
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = [
+    "student-management-system-w21e.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 INSTALLED_APPS = [
