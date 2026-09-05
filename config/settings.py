@@ -9,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-change-this-before-you-deploy'
 
 # True while we are learning. On Day 5 we change this to False.
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     "student-management-system-w21e.onrender.com",
